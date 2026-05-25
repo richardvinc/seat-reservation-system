@@ -105,15 +105,9 @@ Make sure you have local Redis running on port 6379 and local PostgreSQL running
 
 2. To run backend service, run `pnpm nx serve api`.
 
-3. To run worker queue service, run `pnpm nx serve worker` in a different terminal.
+3. To run frontend service, run `pnpm nx dev web` in a different terminal.
 
-4. To run frontend service, run `pnpm nx dev web` in a different terminal.
-
-5. Open application on `http://localhost:3000`
-
-### Running the Test
-
-Automated API test files are currently removed while the seat-based JWT refactor is in progress, so the test commands are not wired to meaningful coverage at the moment.
+4. Open application on `http://localhost:3000`
 
 ## More Ideal Scenario
 
