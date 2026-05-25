@@ -16,11 +16,11 @@ Here are the explanation for each components:
 
 ### NGINX
 
-NGINX is routing all requests to frontend (`/` route) or backend (`/api` route). NGINX also apply some rate-limiting per user via `X-User-Id`, falling back to client IP to prevent abuse to the backend system.
+NGINX is routing all requests to frontend (`/` route) or backend (`/api` route).
 
 ### Frontend
 
-Frontend is a simple React application using Next.js framework with Tailwind for styling. I intentionally not applying any logic to enable/disable any button and show the error as-is from the backend since I want to show how backend handle every action from the user (for example, attempting to buy without providing username or try to buy the item more than once).
+Frontend is a simple React application using Next.js framework with Tailwind for styling. I intentionally not applying any logic to enable/disable any button and show the error as-is from the backend since I want to show how backend handle every action from the user (for example, attempting to reserve seat more than once).
 
 ### Backend
 
